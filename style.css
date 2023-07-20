@@ -1,0 +1,27 @@
+#buatcarousel{
+    filter: brightness(50%);
+    object-position: 0px -100px;
+}
+
+#buatcard{
+    height: 100%;
+    object-fit: cover;
+}
+
+#mycarousel{
+    height:100vh;
+    width:100%;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.05);
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+}
+
